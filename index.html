@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Синий и золотой</title>
+<meta name="description" content="Поэма о нас. Для Наташи.">
+<meta property="og:title" content="Синий и золотой">
+<meta property="og:description" content="Поэма о нас. Для Наташи.">
+<meta property="og:image" content="art/cover.jpg">
+<meta name="color-scheme" content="light">
+<script>var EMB='<svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg>';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#2a4fb0;--gold:#c9971c;--ink:#1e2433;--soft:#6b7385;--line:#eceef3;--bg:#ffffff}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header{min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 20px}
+header .emb svg{width:120px;height:120px}
+h1{font-weight:400;font-size:clamp(44px,9vw,76px);line-height:1.05;margin:28px 0 10px;letter-spacing:.01em}
+h1 .b{color:var(--blue)} h1 .g{color:var(--gold)}
+.sub{font-style:italic;color:var(--soft);font-size:22px}
+.dates{font-family:Manrope,sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);margin-top:26px}
+.down{margin-top:48px;font-family:Manrope,sans-serif;font-size:13px;color:var(--soft);text-decoration:none;letter-spacing:.12em}
+.down:hover{color:var(--blue)}
+.cover{max-width:960px;margin:0 auto 40px;padding:0 20px}
+.cover img{width:100%;display:block;border-radius:6px}
+#music{padding:40px 0 20px}
+#music h3,.label{font-family:Manrope,sans-serif;font-weight:500;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--soft);text-align:center;margin:0 0 24px}
+.song{display:flex;gap:16px;align-items:center;padding:14px 0;border-top:1px solid var(--line)}
+.song:last-child{border-bottom:1px solid var(--line)}
+.song img,.nocover{width:72px;height:72px;border-radius:6px;object-fit:cover;flex:none;display:flex;align-items:center;justify-content:center;background:#fafbfd}
+.nocover svg{width:40px;height:40px}
+.meta{flex:1;min-width:0}
+.sn{font-family:Manrope,sans-serif;font-size:12px;color:var(--gold)}
+.st2{font-size:24px;line-height:1.2;margin-bottom:6px}
+audio{width:100%;height:36px}
+.part{padding:70px 0 10px;text-align:center}
+.num{font-family:Manrope,sans-serif;font-size:13px;letter-spacing:.3em;color:var(--gold)}
+.part h2{font-weight:400;font-size:40px;margin:6px 0 34px;color:var(--blue)}
+.art{margin:0 auto 40px;max-width:680px}
+.art img{width:100%;display:block;border-radius:6px}
+.poem{display:inline-block;text-align:left}
+.st{margin:0 0 1.35em}
+.sep{margin:46px 0 0;opacity:.9}
+.sep svg{width:34px;height:34px}
+footer{text-align:center;padding:60px 20px 90px}
+footer .last{font-size:28px;font-style:italic;line-height:1.4}
+footer .sign{margin-top:28px;font-family:Manrope,sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--soft)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity 1s ease,transform 1s ease}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+@media (max-width:520px){body{font-size:19px}.part h2{font-size:32px}.st2{font-size:21px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="emb"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+  <h1><span class="b">Синий</span> и <span class="g">золотой</span></h1>
+  <div class="sub">поэма о нас — для Наташи</div>
+  <div class="dates">25.11.2019 — всегда</div>
+  <a class="down" href="#start">читать ↓</a>
+</header>
+
+<div class="cover" id="start"><img src="art/cover.jpg" alt="" onerror="this.parentNode.remove()"></div>
+
+<div class="wrap">
+  <section id="music" hidden>
+    <h3>Песни</h3>
+    <div class="song" data-src="music/1.mp3" hidden>
+  <img src="art/song1.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',innerHTML:EMB}))">
+  <div class="meta"><div class="sn">1</div><div class="st2">Лес</div>
+  <audio controls preload="none"></audio></div></div><div class="song" data-src="music/2.mp3" hidden>
+  <img src="art/song2.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',innerHTML:EMB}))">
+  <div class="meta"><div class="sn">2</div><div class="st2">Вода</div>
+  <audio controls preload="none"></audio></div></div><div class="song" data-src="music/3.mp3" hidden>
+  <img src="art/song3.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',innerHTML:EMB}))">
+  <div class="meta"><div class="sn">3</div><div class="st2">Дом</div>
+  <audio controls preload="none"></audio></div></div><div class="song" data-src="music/4.mp3" hidden>
+  <img src="art/song4.jpg" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',innerHTML:EMB}))">
+  <div class="meta"><div class="sn">4</div><div class="st2">Синий и золотой</div>
+  <audio controls preload="none"></audio></div></div>
+  </section>
+
+<section class="part reveal" id="p1">
+  <div class="num">I</div>
+  <h2>Лес</h2>
+  <figure class="art"><img src="art/1.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Нас не знакомили. Был лес,<br>и люди, что приходят в сны<br>не спать, а видеть. Тёплый вес<br>лесной, высокой тишины.</p><p class="st">И ты — с охапкой иван-чая —<br>смеялась, глядя на меня,<br>как будто сразу различая,<br>что я — оттуда, из огня.</p><p class="st">Ты знала руны. В семнадцать лет<br>в тебе на миг затихло всё —<br>и ты увидела тот свет,<br>что до сих пор в себе несёшь.</p><p class="st">А я годами по утрам<br>сидел, теряя вдохам счёт.<br>Я не искал. Но где-то там<br>уже был кто-то, кто поймёт.</p><p class="st">В наш самый первый день ты мне<br>писала, путая слова:<br>«Это ты или я? Во сне<br>или наяву?» — Я знал: сперва</p><p class="st">не надо отвечать. Пускай.<br>Ответ придёт потом — детьми,<br>дорогами, и через край<br>налитым чаем. И — людьми.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p2">
+  <div class="num">II</div>
+  <h2>Два феникса</h2>
+  <figure class="art"><img src="art/2.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Ты мне писала в декабре,<br>что феникс в сказках — без пары:<br>сгорает сам, один, к заре<br>и сам встаёт из-под золы.</p><p class="st">Но есть почти забытый миф,<br>где их — двое. Синий. Золотой.<br>Ты рассказала мне, спросив<br>глазами: «Помнишь?» — Да. Мы с тобой.</p><p class="st">«Вбирает синий — это вдох,<br>а золотой даёт — как выдох».<br>Я ничего сказать не смог —<br>я только понял: это выход</p><p class="st">из одиночества огня,<br>в котором ты жила. И я.</p><p class="st">Потом весь город стал играть:<br>то «феникс» — буквы на машине,<br>то на блокноте, то опять —<br>на куртке, в метро, у мужчины.</p><p class="st">А кошка знала больше нас:<br>я говорил в голосовом<br>про сердце — и она тотчас<br>ложилась на него клубком.</p><p class="st">А Мира, слушая про птиц,<br>сказала: «Я хочу летать».<br>И не нашлось у нас границ,<br>чтоб ей хоть в этом отказать.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p3">
+  <div class="num">III</div>
+  <h2>Вода</h2>
+  <figure class="art"><img src="art/3.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Потом был лес — уже вдвоём,<br>и практики, и голод, смех,<br>и озеро, где мы плывём<br>под Луной — счастливей всех.</p><p class="st">Я сутки там дрожал, смешно,<br>в твоих объятьях у воды<br>и ел пирожки. Ничего<br>не стёрлось. Это — тоже мы.</p><p class="st">Я написал тебе в июне:<br>«Ты — дочь Леса и Неба». Ты<br>в тот вечер, у берёзы, в шуме,<br>просила ветер и листы</p><p class="st">петь мне твою любовь. И нежность<br>дошла. Я слышал. Это — ты.</p><p class="st">Я помню кухню. Первый раз.<br>Ты трогала мой позвоночник —<br>и я внутри почувствовал тотчас<br>твою ладонь. Как отклик. Точно.</p><p class="st">С тех пор не прячем ничего:<br>тебе темно — и мне темно,<br>тебе светло — и мне светло.<br>Так не соврёшь. Так — заодно.</p><p class="st">А после — Ладога. Луна<br>в полнеба. Остров. И костёр.<br>И там, у самого огня,<br>мы начали тот разговор —</p><p class="st">о сыне. Не было его,<br>а он уже как будто тут:<br>сидит меж нами, ничего<br>не просит — ждёт, когда зовут.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p4">
+  <div class="num">IV</div>
+  <h2>Никольск</h2>
+  <figure class="art"><img src="art/4.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Я уезжал в Никольск, домой,<br>где Юг-река и тишина,<br>и там однажды, сам не свой,<br>дышал — и вдруг пришла волна.</p><p class="st">Я записал тогда, смеясь,<br>на видео: «Я вдохновлён ничем!»<br>И в этом «ничем» была вся связь —<br>с тобой, с лесами, с тишиной, со всем.</p><p class="st">Писал тебе: «Всё это — фильм,<br>и режиссёр хорош, ей-богу».<br>А ты мне — чайничек. Своим<br>теплом встречала у дороги.</p><p class="st">Потом — Никольск уже вдвоём:<br>лавандовый латте с черникой,<br>суши (смешно!) — и тихий дом,<br>где тишина была великой.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p5">
+  <div class="num">V</div>
+  <h2>Ремесло</h2>
+  <figure class="art"><img src="art/5.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Наш первый «бизнес» был смешной:<br>мы шапки шили из конопли<br>и колесили всей зимой<br>по магазинам: «Вам не подошли бы?..»</p><p class="st">И нам почти никто не брал —<br>а мы смеялись. Было ясно,<br>что это только лишь начало.<br>Потом так марку и назвали: «Ясно».</p><p class="st">Ты привозила хлеб — из гречки<br>зелёной, тёплый, просто так.<br>Мы иван-чай крутили с вечера,<br>варили шоколад — и как</p><p class="st">мечтали: сделаем кафе,<br>где съел конфету — и в самадхи...<br>И пахли пальцы — в тишине —<br>и шоколадом, и иван-чаем.</p><p class="st">А после — мантии. Из льна,<br>крапивы, конопли — с хвостами,<br>как будто птица — та, одна —<br>спустилась к нам и стала нами.</p><p class="st">Ты назвала их: «Вестники Вселенной».<br>Я до сих пор хвалюсь тобой —<br>легко, наивно, откровенно,<br>как мальчик хвалится звездой.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p6">
+  <div class="num">VI</div>
+  <h2>Дом</h2>
+  <figure class="art"><img src="art/6.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Когда узнал — ни тени страха,<br>ни «как же мы», ни «что потом».<br>Я знал: подарок. И с размаха<br>шагнул туда, где будет дом.</p><p class="st">Я узнавал детей заранее<br>по свету, что тёк впереди:<br>у Лёвы — золотое пламя,<br>у Лии — серебро в груди.</p><p class="st">И Лёва родился дома. Свет<br>стоял по комнатам три дня,<br>и мы не выходили — нет,<br>ни шагу. Грелись у огня.</p><p class="st">Потом — наш лес. Потом — вода.<br>И первый ветер. Он — в слезах.<br>И я бежал домой тогда<br>с таким малюсеньким в руках.</p><p class="st">А после — Лия. Тоже дома.<br>Пришла легко, как серебро.<br>Теперь танцует — невесомо —<br>под балет. И в доме так светло.</p><p class="st">А Мира. Ты пришла не одна,<br>ты привела её с собой —<br>и я не помню, как она<br>могла бы быть не мне родной.</p><p class="st">Я помню: мы гуляем с ней вдвоём,<br>маркеры, болтовня без края,<br>а после — синий спальник, в нём<br>она по полу катится, сияя.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p7">
+  <div class="num">VII</div>
+  <h2>Дороги и друзья</h2>
+  <figure class="art"><img src="art/7.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Печоры. Изборск. Беларусь.<br>Никольск — к родителям, к моим.<br>Я помню это наизусть:<br>ты шьёшь коллекцию, а с ним,</p><p class="st">с маленьким Лёвой, я иду<br>по старым стенам, не спеша,<br>и кажется — мы все в саду,<br>где у дороги есть душа.</p><p class="st">Была и осень непростая:<br>решали за ночь — где и как.<br>Я ехал первым. Ты, вторая,<br>везла детей. И помню, как</p><p class="st">встречал тебя под утро: ты<br>устала — но в глазах твоих<br>светилось столько живой красоты,<br>как будто это приключенье — на двоих.</p><p class="st">Мы жили годы в доме магов —<br>где Гоша, Катя, Ярослав,<br>где ночью спорят о богах,<br>где ты шьёшь мантии, не устав.</p><p class="st">И с Яром вы нашли кадуцей —<br>два змея, вьющихся вокруг жезла.<br>Там столько было твоих ночей,<br>твоих стежков, твоего тепла.</p><p class="st">Сейчас — другие: Паша, Вова.<br>Друзья меняются. А дом —<br>он не в стенах. Он в нас. И снова<br>мы зажигаем свет в нём.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+<section class="part reveal" id="p8">
+  <div class="num">VIII</div>
+  <h2>Сейчас</h2>
+  <figure class="art"><img src="art/8.jpg" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>
+  <div class="poem"><p class="st">Я как-то начал вспоминать<br>пятьсот причин — чтоб быть, любить.<br>На сороковой пришлось признать:<br>их не исчислить. Можно — жить.</p><p class="st">Теперь ты учишь звёзды: Марс,<br>Сатурн, Луну — их ход и строй.<br>Ты говоришь — а я как раз<br>внутри их чувствую собой.</p><p class="st">И даже Луну я люблю<br>как часть семьи — давно, всерьёз.<br>Я в первую зиму, к декабрю,<br>назвал тебя так — и сбылось.</p><p class="st">Ты как-то написала мне:<br>отлети подальше, на Божий срок, —<br>и видно: Феникс в темноте<br>летит совсем не одинок.</p><p class="st">Вокруг — бессчётно их, огней:<br>сгорают — вспыхивают вновь.<br>И я не знаю ничего верней,<br>чем эта простая любовь.</p><p class="st">Вбирает синий. Золотой<br>даёт. Вдох — выдох. Ты и я.<br>И между нами — свет простой,<br>в котором выросла семья.</p><p class="st">Почти семь лет. Трое детей.<br>А я всё вижу, как тогда:<br>ты — с иван-чаем — меж ветвей<br>смеёшься. И я знаю: да.</p><p class="st">Нас не знакомили. Был лес.<br>Он и сейчас вокруг. Он — здесь.</p></div>
+  <div class="sep" aria-hidden="true"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+</section>
+</div>
+
+<footer>
+  <div class="emb"><svg viewBox="-70 -70 140 140" width="56" height="56"><g style="mix-blend-mode:multiply"><path transform="rotate(-24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#2a4fb0" opacity=".85"/><path transform="rotate(24)" d="M0,-58 C24,-26 30,8 0,42 C-30,8 -24,-26 0,-58Z" fill="#d4a62a" opacity=".85"/></g><path d="M-14,40 C-30,56 -48,58 -62,52" stroke="#2a4fb0" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M14,40 C30,56 48,58 62,52" stroke="#d4a62a" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="sign">с любовью — Сергей</div>
+</footer>
+
+<script>
+// показываем только те песни, чьи mp3 реально лежат в папке music/
+document.querySelectorAll('.song').forEach(function(s){
+  var src=s.dataset.src;
+  fetch(src,{method:'HEAD'}).then(function(r){
+    if(r.ok){s.querySelector('audio').src=src;s.hidden=false;document.getElementById('music').hidden=false;}
+  }).catch(function(){});
+});
+// одна песня играет — остальные на паузе
+document.addEventListener('play',function(e){
+  document.querySelectorAll('audio').forEach(function(a){if(a!==e.target)a.pause();});
+},true);
+// мягкое появление при прокрутке
+var io='IntersectionObserver' in window?new IntersectionObserver(function(es){
+  es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('on');io.unobserve(x.target);}});
+},{threshold:.08}):null;
+document.querySelectorAll('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('on');});
+</script>
+</body>
+</html>
